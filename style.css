@@ -155,5 +155,13 @@ header ul li a.active {
     align-items: center;
     border-radius: 50%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    
+}
+
+.sci li a img {
+    transform: scale(0.6);
+    transition: 0.5s;
+}
+
+.sci li:hover a img {
+    transform: scale(0.6) rotate(360deg);
 }
