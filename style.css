@@ -115,3 +115,17 @@ header ul li a.active {
     font-weight: 600;
     text-decoration: none;
 }
+
+.imgBx img{
+    max-width: 400px;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0%, 100%{
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+}
