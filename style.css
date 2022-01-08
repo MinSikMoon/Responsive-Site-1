@@ -75,8 +75,41 @@ header ul li a {
     border-radius: 25px;
 }
 
-header ul li a:hover, 
+header ul li a:hover,
 header ul li a.active {
     background: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    padding: 40px;
+    transform: translateX(-100px);
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    padding-left: 110px;
+}
+
+.content h2{
+    font-size: 3em;
+    color: #8a2435;
+}
+
+.content p{
+    font-size: 1.2em;
+    color: #8a2435;
+    line-height: 25px;
+}
+
+.content a {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 30px;   
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
